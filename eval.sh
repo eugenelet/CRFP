@@ -1,0 +1,21 @@
+### evaluation
+python3 main.py --save_dir ./eval/REDS/FVSR_x8_simple_v18_hrdcn_y_offsetprop_y_fnet_cra \
+                --reset True \
+                --num_gpu 1 \
+                --gpu_id 0 \
+                --log_file_name eval.log \
+                --eval True \
+                --eval_save_results True \
+                --num_workers 1 \
+                --scale 8 \
+                --cra true \
+                --mrcf true \
+                --hr_dcn true \
+                --offset_prop true \
+                --N_frames 15 \
+                --FV_size 96 \
+                --dataset Reds \
+                --dataset_dir /DATA/REDS_sharp/ \
+                --model_path ./train/REDS/FVSR_x8_simple_v18_hrdcn_y_offsetprop_y_fnet_cra/model/ \
+                --visdom_port 8803 \
+                --visdom_view 0301_FVSR_x8_simple_v18_hrdcn_y_offsetprop_y_fnet_cra

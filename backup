@@ -1,0 +1,3 @@
+#!/bin/bash
+
+tar --exclude='train/*' --exclude='env/*' --exclude='eval/*' --exclude='test/*' --exclude='test_png/*' --exclude='test_video/*' --exclude='test_gif/*' --exclude='old_tree_x1/*' --exclude='old_tree_x8/*' -cvf CRFP_x8.tar .
