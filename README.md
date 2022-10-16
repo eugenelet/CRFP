@@ -1,6 +1,6 @@
 # Cross-Resolution-Flow-Propagation-for-Foveated-Video-Super-Resolution
 
-Original source code of Cross-Resolution Flow Propagation for Foveated Video Super-Resolution (CRFP) accepted by WACV 2023.
+Official implementation of Cross-Resolution Flow Propagation for Foveated Video Super-Resolution (CRFP) accepted by WACV 2023.
 
 <img src="overview.png" width="600">
 
