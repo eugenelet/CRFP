@@ -4,6 +4,14 @@ Official implementation of Cross-Resolution Flow Propagation for Foveated Video 
 
 <img src="overview.png" width="600">
 
+## Demo
+
+<img src="demo/sigma10.gif" width="600">
+
+<img src="demo/sigma50.gif" width="600">
+
+<img src="demo/sigma100.gif" width="600">
+
 
 
 ## Training and evaluation
