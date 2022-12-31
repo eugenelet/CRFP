@@ -6,7 +6,7 @@ Official implementation of Cross-Resolution Flow Propagation for Foveated Video 
 
 ## Demo
 
-Demonstration how CRFP deal with various value of $\sigma^T$ representing the noise induced by the movement of eye tracker during pupil detection.
+Demonstration how CRFP deal with various value of $\sigma^T$ representing the noise induced by the movement of eye tracker during pupil detection. Note that regions beyond the foveated region are resolved under $8\times$ super-resolution.
 
 $\sigma^T=10$
 
