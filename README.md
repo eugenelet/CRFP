@@ -6,10 +6,15 @@ Official implementation of Cross-Resolution Flow Propagation for Foveated Video 
 
 ## Demo
 
+Demonstration how CRFP deal with various value of $\sigma^T$ representing the noise induced by the movement of eye tracker during pupil detection.
+
+$\sigma^T=10$
 <img src="demo/sigma10.gif" width="600">
 
+$\sigma^T=50$
 <img src="demo/sigma50.gif" width="600">
 
+$\sigma^T=100$
 <img src="demo/sigma100.gif" width="600">
 
 
